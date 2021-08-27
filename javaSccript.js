@@ -28,12 +28,8 @@ while (cont <= parcela){
         console.log(`Pode ser pago em ${cont} Vezes de ${valor_parcela.toFixed(2)} Com Juros de 15%`)
         cont = cont + 1;
     }else{
-
-    
     valor_parcela = prod / cont;
     console.log(`Pode ser pago em ${cont} Vezes de ${valor_parcela.toFixed(2)}`)
-    cont = cont + 1;}
-    
+    cont = cont + 1;}   
 }
-
 console.log(`A parcela fica em R$${valor_parcela.toFixed(2)} dividindo em ${cont} Vezes`)
